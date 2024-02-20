@@ -1,0 +1,66 @@
+/* General */
+
+html {
+
+}
+
+body {
+
+}
+
+/* Header */
+
+header {
+
+}
+
+.header img {
+    width: 300px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .links {
+    display: flex;
+}
+
+ul {
+
+}
+
+.intro {
+
+}
+
+.intro img {
+    width: 300px;
+    height: auto;
+}
+
+.intro-text {
+
+}
+
+.intro-text h1 {
+
+}
+
+.intro-text p {
+
+}
+
+.intro-text button {
+
+}
+
+
+
+/* Main */
+
+
+
+/* Footer */
