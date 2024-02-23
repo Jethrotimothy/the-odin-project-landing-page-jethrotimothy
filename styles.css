@@ -4,7 +4,7 @@ html {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
+    scroll-behavior: smooth;
 }
 
 body {
@@ -52,7 +52,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 50px 200px;
     
 }
 
@@ -69,19 +69,29 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+    margin: 0;
 }
 
 .intro-text p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 .intro-text button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    margin: 0;
 }
 
-
+.intro-text button:hover {
+    cursor: pointer;
+}
 
 /* Main */
 
@@ -89,11 +99,12 @@ main {
 
 }
 
+/* Random information */
+
 .random-information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgreen;
 }
 
 .random-information h1 {
@@ -115,6 +126,8 @@ main {
     width: 150px;
 }
 
+/* Quote */
+
 .quote {
     padding: 0 200px;
     background-color: #E5E7EB;
@@ -123,10 +136,45 @@ main {
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    margin: 0;
 }
 
+.quote-author {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+/* CTA */
+
 .cta {
-    padding: 0 200px;
+    margin: 0 200px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.cta-content {
+    margin: 0;
+    display: flex;
+    
+}
+
+.cta-text p{
+    margin: 0;
+}
+
+.cta button {
+    margin: 0;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    margin: 0;
 }
 
 /* Footer */

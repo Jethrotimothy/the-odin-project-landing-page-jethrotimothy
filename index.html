@@ -21,9 +21,9 @@
 
             <div class="links">
                 <ul>
-                    <li><a href="#">Random information</a></li>
-                    <li><a href="#">Quote</a></li>
-                    <li><a href="#">CTA</a></li>
+                    <li><a href="#random-information">Random information</a></li>
+                    <li><a href="#quote">Quote</a></li>
+                    <li><a href="#cta">CTA</a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +38,7 @@
                     This website has some subtext that goes here under the main title. It's a smaller font and the color is contrast.
                 </p>
 
-                <button>
+                <button type="button" onclick="alert('Website still in progress!')">
                     Sign up
                 </button>
             </div>
@@ -51,7 +51,7 @@
     
     <main>
 
-        <div class="random-information">
+        <div class="random-information" id="random-information">
             <h1>Some random information</h1>
             <div class="cards">
 
@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <div class="quote">
+        <div class="quote" id="quote">
 
             <p class="quote-text">
                 This is an inspiring quote, or a testimonial from a customer. 
@@ -92,10 +92,14 @@
             </p>
         </div>
 
-        <div class="cta">
-            <p>Call to action! It's time</p>
-            <p>Sign up for our products by clicking that button right over there!</p>
-            <button>Sign up</button>
+        <div class="cta" id="cta">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <p>Call to action! It's time</p>
+                    <p>Sign up for our products by clicking that button right over there!</p>
+                </div>
+                <button type="button" onclick="alert('Website still in progress!')">Sign up</button>
+            </div>
         </div>
 
     </main>
