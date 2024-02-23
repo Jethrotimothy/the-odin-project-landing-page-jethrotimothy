@@ -120,6 +120,7 @@ main {
     width: 100px;
     height: auto;
     border-radius: 5px;
+    border: 3px #3882F6 solid;
 }
 
 .card {
@@ -129,7 +130,7 @@ main {
 /* Quote */
 
 .quote {
-    padding: 0 200px;
+    padding: 120px 300px;
     background-color: #E5E7EB;
 }
 
@@ -137,6 +138,7 @@ main {
     font-size: 36px;
     font-style: italic;
     margin: 0;
+    font-weight: 300;
 }
 
 .quote-author {
@@ -151,16 +153,17 @@ main {
 /* CTA */
 
 .cta {
-    margin: 0 200px;
+    padding: 50px;
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 5px;
+    margin: 100px 200px;
 }
 
 .cta-content {
     margin: 0;
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .cta-text p{
@@ -170,7 +173,9 @@ main {
 .cta button {
     margin: 0;
     font-weight: bold;
-    border: none;
+    border: 3px white solid;
+    color: #F9FAF8;
+    background-color: #3882F6;
     border-radius: 5px;
     width: 90px;
     height: 30px;
@@ -182,4 +187,18 @@ main {
 footer {
     background-color: #1F2937;
     padding: 0 200px;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
